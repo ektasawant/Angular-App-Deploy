@@ -25,7 +25,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/_redirects"
             ],
             "styles": [
               "src/styles.scss"
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angula-app-deploy"
+    }
+  },
+  "defaultProject": "angula-app-deploy",
+  "cli": {
+    "analytics": false
+  }
 }
